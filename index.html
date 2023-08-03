@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login_In_Page</title>
+
+    <!-- Google Fonts Links  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Style Files  -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <div class="contain">
+      <div class="sign-in-page">
+        <p class="text-infoo">Smart Login System</p>
+
+        <input id="userEmail" type="email" placeholder= "Enter Your Email" class="form-control"/>
+        <input id="userPassword" type="password" placeholder= "Enter Your Password" class="form-control mt-3" />
+        <a id="loginBtn"  class="link mt-4 btn btn-info">Login</a>
+        <div id="success" class="alert alert-success text-center d-none m-1">Logged In Successfully</div>
+        <div id="danger" class="alert alert-danger text-center d-none m-1">All Inputs Is Required</div>
+        <div id="invalid" class="alert alert-danger text-center d-none m-1">Invalid Email Or Password</div>
+        <div class="forgit-pass mt-3">
+          <span class="text-light">Don’t have an account?</span>
+          <a id="subButton" href="./page2/index.html"> Sign Up </a>
+        </div>
+      </div>
+    </div>
+    <script src="./javascript/bootstrap.bundle.min.js"></script>
+    <script src="./javascript/main.js"></script>
+  </body>
+</html>
